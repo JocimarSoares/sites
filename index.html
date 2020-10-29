@@ -1,36 +1,34 @@
-﻿<!doctype html>
-<html>
+<!doctype html>
+<html lang="pt-br">
+
 	<head>
-		<title>Título da página</title>
-		<meta sharset="utf-8" />
+		<title>GEDO</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<h1>Lista não ordenada</h1>
-		<ul>
-			<li>Primeiro item da lista</li>
-			<li>Segundo item da lista</li>
-			<li>Terceiro item da lista</li>
-			<li>Quarto item da lista</li>
-		</ul>
-		<h1>Lista ordenada</h1>
-		<ol>
-			<li>Primeiro item da lista</li>
-			<li>Segundo item da lista</li>
-			<li>Terceiro item da lista</li>
-			<li>Quarto item da lista</li>
-		</ol>
-		<h1>Lista de definição</h1>
-		<dl>
-			<dt>HTML</dt>
-			<dd>Linguagem de marcação para páginas web</dd>
-			<dt>HTML</dt>
-			<dd>Linguagem de marcação para páginas web</dd>
-			<dt>HTML</dt>
-			<dd>Linguagem de marcação para páginas web</dd>
-			<dt>HTML</dt>
-			<dd>Linguagem de marcação para páginas web</dd>
-		</dl>
+	<div id="card">
+		<img src="imag/GEDO Logo002.jpg">
+		<h2>GERENCIADOR DE DOCUMENTOS</h2>
+
+		<form method="POST" action="processa.php">
+
+			<label>Usuário:</label>
+			<input type="text" name="usuario" placeholder="Digite seu usuário"required>
+
+			<label>Senha:</label>
+			<input type="password" name="senha" placeholder="Digite sua senha"required>
+
+			<input type="submit" value="ACESSAR">
+
+			<a href="cadastrar.php"><strong>Cadastre-se!</strong></a>
+
+			<label></label>
+
+		</form>
+
+	</div>
 
 	</body>
 
