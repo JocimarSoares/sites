@@ -1,0 +1,53 @@
+body{
+	background-color: #f0f0f0;
+}
+
+div#card{
+	background-color: white;
+	width: 420px;
+	margin: 30px auto 0px auto;
+	border-radius: 5px;
+}
+
+img{
+	margin: 10px 40px 0px 40px;
+}
+
+input{
+	display: block;
+	border-radius: 5px;
+	width: 80%;
+	height: 25px;
+	padding: 5px;
+	margin: 0px 0px 15px 35px;
+	font-size: 12pt;
+}
+
+h2{
+	text-align: center;
+}
+
+label{
+    color: rgb(75, 75, 75);
+    font-size: 12pt;
+    padding: 35px;
+
+}
+
+input[type=submit]{
+	background-color: #0C75DF;
+	width: 200px;
+	margin: 0px 100px;
+	padding: 10px 0px 30px 0px;
+	border-radius: 30px;
+	color: white;
+	border: 2px solid black;
+	outline: 0px;
+	cursor: pointer;
+	font-size: 16pt;
+}
+
+input[type=submit]:hover{
+	background-color: #00A3E8;
+	transition: .5s;
+}
